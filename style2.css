@@ -1,0 +1,35 @@
+/* page reset sempre tem que fazer  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 50px;
+    width: 500px; /* Largura */
+    height: 500px; /* Altura */
+    padding: 20px;
+    border: black solid 15px;
+    font-size: 70px;
+    color: blue;
+    background-color: brown;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(57, 57, 247);
+    color: white;
+    padding: 10px 30px;
+    margin: 10px;
+    border: solid 4px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 300ms;
+}
+
+a:hover {
+    background-color: rgb(16, 202, 56);
+    color: black;
+}
